@@ -1,0 +1,24 @@
+{
+  "name": "Restaurant",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "restaurant detail display",
+  "background": {
+    "service_worker": "popup.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": "/gray-restaurant.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "/restaurant.png"
+  },
+  "permissions": ["history", "tabs"],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.js", "popup.html", "popup.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
