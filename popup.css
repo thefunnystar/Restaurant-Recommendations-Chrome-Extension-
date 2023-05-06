@@ -1,0 +1,29 @@
+.body {
+    height: auto !important;
+    width: 20.3rem !important;
+    font-size: .75rem;
+    margin-top: 1.25rem !important;
+}
+
+.header {
+    text-align: center;
+    font-size: 1rem;
+    height: 2rem;
+    background-color: #36898d;
+    color: white;
+}
+
+.restaurant-name {
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+    color: #aaa;
+}
+
+.map {
+    border: 0;
+    width: 18.75rem;
+    height: 12.5rem;
+}
